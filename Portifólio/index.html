@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Nome - Portfólio</title>
+    <link rel="stylesheet" href="./index.css">
+     <link  rel="shortcut icon" href="./assects/macaco-removebg-preview.png" />
+</head>
+<body>
+    <header class="header-bg">
+        <div class="header-content">
+            <h1>Davi Dionísio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <p>Tecnico em DEV </p>
+            <p> Curso nuuvem google cloud</p>
+            <p> Curso AWS </p>
+            <p>Curso desenvolvedor de sites e plataformas </p>
+            <p>Backend </p>
+                <p>Frontend</p>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>Meu Portfólio</h2>
+            <div class="portfolio-item">
+                <img src="./assects/Capturar.PNG" alt="Projeto 1">
+                <h3>Projeto 1: Tela informativa usando grid</h3>
+                <p>Fiz essa tela usando grid, com informações sobre os tipos de plataformas de desenvolvedor.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="./assects/Captura2234567.PNG" alt="Projeto 2">
+                <h3>Projeto 2: Calculadora de IMC</h3>
+                <p>Fiz essa calculadora de imc usando Js, que serve para calcular a porcentagem de gordura corporal.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="./assects/pot.png" alt="Projeto 3">
+                <h3>Projeto 3: Portifólio</h3>
+                <p>Fiz um portifólio bem simples e rapido sobre mim.</p>
+            </div>
+            <!-- Adicione mais projetos conforme necessário -->
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Entre em contato comigo através do formulário abaixo:</p>
+            <form action="enviar_email.php" method="POST">
+                <input type="text" name="nome" placeholder="Seu Nome" required>
+                <input type="email" name="email" placeholder="Seu Email" required>
+                <textarea name="mensagem" placeholder="Sua Mensagem" required></textarea>
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Davi Dionísio. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
